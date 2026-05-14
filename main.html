@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width= device - width, initial-scale=1.0">
+        
+        <title> Pranav Sivanesh</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <header class="header">
+            <div class="left"></div>
+
+            <div class="center">
+                <h1>Portfolio</h1>
+            </div>
+
+        <!--Side bar Menu button-->
+            <div class="right">
+                <div class="hamburger" onclick="toggleMenu()">☰</div>
+            </div>
+        </header>  
+
+        <!--Side Bar-->
+        <div id="sidebar" class="sidebar">
+            <a href="contact.html">Contact Me</a>
+            <a href="https://github.com/PranavSivanesh">GitHub Profile</a>
+            <a href="#">Resume</a>
+        </div>
+
+        <!--Overlay-->
+        <div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+
+        <section class="bout" id="home">
+            <div class="hero-text">
+                <p class="greeting">Hello, It's Me</p>
+                <h1 class="name">Pranav Sivanesh</h1>
+                <p class="bio">Computer Science student at Heriot-Watt University, Dubai.</p>
+            </div>
+            <div class="image">
+                <img src="images\ea9cfd4b-bd63-4e69-96d4-093b8a023e82.jpg" alt="my-photo">
+            </div>
+        </section>
+        <!--<div id="container">
+                <div class="Summary">
+                    <h2><u>Pranav Sivanesh</u></h2>
+                    <p class="para">Currently a 2nd Year Computer Science student at Heriot-Watt University, Dubai with a strong interest in data analysis
+                        and web development. Skilled in Python, Java, HTML, CSS, SQL, and object-oriented programming, with a solid foundation in
+                        Database Management Systems and hands-on experience with Raspberry Pi and C-Programming.<br>
+                    </p>
+                </div>
+            </div>-->
+        <section class="project">
+            <h2><b>Projects</b></h2>
+            <div class="project-title fade-in">
+                <h3>DuneAir.com ✈️</h3>
+                <p class="subtitle">
+                    Premium Full Stack Airline Booking Platform
+                </p>
+                <div class="tools">
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>MySQL</span>
+                    <span>JavaScript</span>
+                    <span>HTML&CSS</span>
+                </div>
+                <p class="para">
+                    Developed a full stack airline booking platform with flights search, multi-passenger booking, 
+                    interactive seat selection, authentication, loyalty rewards, and admin flight management.
+                </p>
+                <div id="features">
+                    <span>Seat Selection</span>
+                    <span>REST APIs</span>
+                    <span>Loyalty System</span>
+                    <span>Admin Dashboard</span>
+                </div>
+                
+            </div>
+        </section>
+    </body>
+</html>
