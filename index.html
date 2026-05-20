@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranav Sivanesh | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">PRANAV SIVANESH</a>
+      <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="contact.html" data-nav="contact">Contact Me</a>
+        <a href="https://drive.google.com/file/d/1MaHGDoAUe8hdoY9Gi2Erm8kCkirofyU-/view?usp=drive_link" target="_blank" rel="noopener">Resume</a>
+        <a href="https://github.com/PranavSivanesh" target="_blank" rel="noopener">GitHub Profile</a>
+      </nav>
+    </header>
+    
+    <aside class="sidebar" aria-label="Mobile navigation">
+      <nav class="sidebar-nav">
+        <a href="contact.html" class="sidebar-link">Contact Me</a>
+        <a href="https://drive.google.com/file/d/1MaHGDoAUe8hdoY9Gi2Erm8kCkirofyU-/view?usp=drive_link" target="_blank" rel="noopener" class="sidebar-link">Resume</a>
+        <a href="https://github.com/PranavSivanesh" target="_blank" rel="noopener" class="sidebar-link">GitHub Profile</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section class="hero">
+        <div class="hero-photo" aria-label="Photo of Pranav Sivanesh">
+          <!-- Replace profile-placeholder.svg with your own photo file. -->
+          <img src="https://res.cloudinary.com/dj0h9ch42/image/upload/v1779275970/WhatsApp_Image_2026-05-20_at_11.01.16_AM_whq3js.jpg" alt="Pranav Sivanesh" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio</p>
+          <p class="hello-line">Hello It's me</p>
+          <h1>PRANAV SIVANESH</h1>
+          <p class="intro">Computer Science student at Heriot Watt University Dubai.</p>
+          <div class="hero-actions" aria-label="Quick links">
+            <a class="button primary" href="contact.html">Contact Me</a>
+          </div>
+        </div>
+      </section>
+      <section class="projects-section reveal-on-scroll" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Featured work</h2>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://res.cloudinary.com/dj0h9ch42/image/upload/v1779275959/Screenshot_2026-05-20_124348_v7cvyj.png" alt="Dune Air project photo placeholder" />
+          </div>
+          <div class="project-copy">
+            <p class="eyebrow">Project 01</p>
+            <h3>Dune Air</h3>
+            <p>
+              A clean aerospace concept focused on advanced aircraft design, aerodynamic ideas,
+              and a polished travel experience.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year">2026</span> Pranav Sivanesh. All rights reserved.</p>
+      <p>Computer Science student | Heriot Watt University Dubai</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
