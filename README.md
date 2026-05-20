@@ -21,12 +21,13 @@ A modern personal portfolio website built using HTML, CSS, and JavaScript to sho
 
 ## Project Structure
 
-```txt
+```text
 portfolio/
 │
 ├── index.html
 ├── style.css
 ├── script.js
-├── contact.html
+├── images/
+├── assets/
 └── README.md
 ```
