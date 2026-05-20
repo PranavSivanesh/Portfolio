@@ -1,23 +1,30 @@
-# Pranav Sivanesh Portfolio
+# Personal Portfolio Website
 
-Simple portfolio website layout made with plain HTML and CSS.
+A modern personal portfolio website built using HTML, CSS, and JavaScript to showcase my projects, skills, and contact information.
 
-## How to use
+## Features
 
-1. Open this folder in VS Code.
-2. Open `index.html`.
-3. Replace the placeholder links in `index.html` and `contact.html`:
-   - `your.email@example.com`
-   - `https://www.instagram.com/your-instagram`
-   - `https://www.linkedin.com/in/your-linkedin`
-   - `https://github.com/your-github-username`
-4. Add your resume PDF to this folder as `resume.pdf`.
-5. Add your profile photo to this folder and replace `profile-placeholder.svg` in `index.html` with your photo file name.
+- Responsive design
+- Smooth scroll animations
+- Modern UI layout
+- Project showcase section
+- Contact section
+- Resume download/view
+- External asset hosting using Cloudinary
 
-## Files
+## Technologies Used
 
-- `index.html` - home page content
-- `contact.html` - separate contact page
-- `styles.css` - website design and responsive layout
-- `script.js` - small JavaScript for active navigation and footer year
-- `profile-placeholder.svg` - temporary profile image
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
+
+## Project Structure
+portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+├── images/
+├── assets/
+└── README.md
